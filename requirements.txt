@@ -1,0 +1,5 @@
+gymnasium>=1.0.0
+flappy-bird-gymnasium>=0.4.0
+torch>=2.0.0
+pygame>=2.5.0
+pyyaml>=6.0
