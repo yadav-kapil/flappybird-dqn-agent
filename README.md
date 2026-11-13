@@ -9,11 +9,9 @@
 An end-to-end Reinforcement Learning project training an autonomous agent to master **Flappy Bird** from scratch using **Deep Q-Networks (DQN)** and **PyTorch**, built on Farama Foundation's **Gymnasium** (`flappy-bird-gymnasium`). The agent begins with zero environmental knowledge and no hardcoded rules — it learns purely from trial, error, and reward signals — progressively discovering altitude control, flap timing, and gap centering until it achieves flawless, indefinite obstacle navigation with a peak episode reward of **+87.90** across **80+ consecutive pipes cleared**.
 
 <div align="center">
-  <video src="assets/agent_demo.mp4" controls autoplay loop muted width="320">
-    <source src="assets/agent_demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <p><em>Trained DQN agent evaluation gameplay — recorded in real-time with active 180-ray LiDAR perception sensors and on-screen score tracking (Score: 35 pipes cleared, Reward: +94.90).</em></p>
+  <img src="assets/agent_demo.gif" alt="Flappy Bird DQN Autonomous Gameplay" width="280" />
+  <p><em>Trained DQN agent evaluation gameplay — recorded in real-time with active 180-ray LiDAR perception sensors and on-screen score tracking (Score: 35 pipes cleared, Reward: +94.90).</em><br />
+  <a href="assets/agent_demo.mp4">▶ Watch Full 45-Second HD Video (MP4)</a></p>
 </div>
 
 ---
@@ -384,7 +382,8 @@ Flappy-Bird-DQN/
 ├── .gitignore                # Excludes caches, virtual environments, IDE files, OS artifacts
 ├── LICENSE                   # MIT License
 ├── assets/
-│   ├── agent_demo.mp4            # Recorded evaluation run (active LiDAR rays & on-screen score, Score 35)
+│   ├── agent_demo.gif            # Animated gameplay preview (active LiDAR rays & live score)
+│   ├── agent_demo.mp4            # Full 45-second HD evaluation run (Score 35, Reward +94.90)
 │   ├── training_convergence.png  # Reward convergence curve + epsilon decay schedule
 │   └── agent_benchmarks.png      # Pipes cleared, action ratio, simulation throughput
 └── runs/
